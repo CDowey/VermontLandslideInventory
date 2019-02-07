@@ -19,12 +19,11 @@ from scipy import stats
 from pathlib import Path
 
 # Set working directory and file paths
-wd = Path(r"C:\Users\colin.dowey\OneDrive - State of Vermont\MyFiles\GIS\RasterAnalysis\Landslides\Landslides_SpatialDistribution")
-landslides_path = wd / 'Landslides_FromOpenDataPortal' /'Landslides_Elev.shp'
-NHD_path = wd / 'NHD_Flowline' / 'NHDFlowline_vt.shp'
+wd = 
+landslides_path = wd / 
+NHD_path = wd / 
 VTSP_NAD83_m_proj4 = '+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964286 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs'
-landslides_output = wd / 'Landslides_FromOpenDataPortal' / 'Landslides_Elev_FlowDist.shp'
-
+landslides_output = wd / 
 
 ## Extract elevation data from Bare-Earth LiDAR DEM for each landslide inventory point
 

@@ -8,3 +8,6 @@ http://geodata.vermont.gov/datasets/VTANR::landslides
 First steps - Test any basic spatial/geologic patterns in the distribution of inventoried landslides.
 * Elevation
 * Proximity to Rivers
+
+### Training Dataset
+These scripts may also help build the spatial/geologic parameters for inventoried landslides to serve as a training dataset for landslide model.
